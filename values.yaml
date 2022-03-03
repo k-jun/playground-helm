@@ -1,0 +1,14 @@
+ingress-nginx1:
+  controller:
+    ingressClassResource:
+      name: nginx1  # default: nginx
+      enabled: true
+      default: false
+      controllerValue: "k8s.io/nginx1"
+ingress-nginx2:
+  controller:
+    ingressClassResource:
+      name: nginx2  # default: nginx
+      enabled: true
+      default: false
+      controllerValue: "k8s.io/nginx2"
